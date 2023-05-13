@@ -5,10 +5,10 @@
     "version": "0.8.08",
     "scheme": "sunflower",
     "orientation": "portrait",
-    "icon": "./sa-assets/Icon/sfLogoAppIcon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./sa-assets/Icon/sfLogoAppSplash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./sa-assets/Icon/sfLogoAppIcon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
       "softwareKeyboardLayoutMode": "pan",
@@ -30,7 +30,7 @@
       "userInterfaceStyle": "light"
     },
     "web": {
-      "favicon": "./sa-assets/Icon/sfLogoAppIcon.png"
+      "favicon": "./assets/icon.png"
     },
     "extra": {
       "eas": {
