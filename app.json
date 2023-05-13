@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "项日葵",
+    "slug": "sunflower",
+    "version": "0.8.08",
+    "scheme": "sunflower",
+    "orientation": "portrait",
+    "icon": "./sa-assets/Icon/sfLogoAppIcon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./sa-assets/Icon/sfLogoAppSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./sa-assets/Icon/sfLogoAppIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.alickcai.Sunflower",
+      "userInterfaceStyle": "light"
+    },
+    "web": {
+      "favicon": "./sa-assets/Icon/sfLogoAppIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bd1bb791-2ca9-4bc3-99e6-fc6230a0fbc0"
+      }
+    },
+    "owner": "alickcai"
+  }
+}
